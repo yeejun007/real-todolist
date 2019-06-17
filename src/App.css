@@ -1,33 +1,135 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.around {
+  display: flex;
+  height: 500px;
+  width: 700px;
+  border: solid black;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 5px 5px 5px 5px gray;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Style the side navigation */
+.sidenav {
+  height: 494px;
+  width: 200px;
+  border-bottom-left-radius: 22px;
+  background-color: rgb(57, 94, 109);
+}
+
+.content {
+  padding: 20px;
+}
+
+.icons {
+  
+}
+
+.completeplan {
+  margin-bottom: 5px;
+}
+
+.addplan {
+  margin-top: 10px;
+  border: thick double rgba(20, 24, 27, 0.6);
+  margin-right: ;
+}
+.sidenav-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 1.2rem;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.searchbar {
+  border: thick double rgba(20, 24, 27, 0.6);
+  margin-bottom: 10px;
+}
+
+.input1 {
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.input2 {
+}
+
+.input3 {
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  padding-right: 200px;
+}
+
+.button {
+  font-size: 0.72rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 2px;
+  padding-top: 3px;
+}
+
+.addedplan {
+  margin-left: 20px;
+  color: rgb(37, 36, 36);
+}
+
+.title, .li, .completeplan {
+  cursor: pointer;
+}
+
+.title {
+  margin-left: 7px
+}
+
+.contentbtn {
+  font-size: 0.8rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 2px;
+  padding-top: 5px;
+  margin-bottom: 10px
+}
+
+i {
+  margin-right: 5px;
+}
+.fa-search {
+  margin-left: 4px;
+  margin-right: 1px;
+}
+
+.li:hover {
+  color: black; 
+}
+
+
+
+
+
+
+
+/* Side navigation links
+.sidenav a {
   color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
-}
+Change color on hover
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Style the content */
+
