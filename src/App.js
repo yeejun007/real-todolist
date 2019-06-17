@@ -147,6 +147,14 @@ class App extends React.Component {
             (event) => {
               inputValue = event.target.value;
             }
+          } onKeyDown={
+            function(event){
+              if(event.keyCode === 13){
+                var newTitle = inputValue
+                this.addPlan(newTitle)
+                event.target.value = "";
+              }
+            }.bind(this)
           }></input>
           <button className="button" onClick={
             function(){ 
@@ -162,6 +170,15 @@ class App extends React.Component {
             (event) => {
               inputContent = event.target.value;
             }
+          }
+          onKeyDown={
+            function(event){
+              if(event.keyCode === 13){
+                var newContent = inputContent;
+                this.addContent(newContent)
+                event.target.value = "";
+              }
+            }.bind(this)
           }></input>
           <button className="contentbtn" onClick={
             function(){
