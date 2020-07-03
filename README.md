@@ -1,5 +1,4 @@
-React를 사용해서 만든 간단한 todo-list 어플리케이션.
-(메모장 같은 어플리케이션)
+### React를 사용해서 만든 간단한 todo-list 어플리케이션(메모장 같은 어플리케이션)
 
 ### `npm start`
 npm start 명령어를 통해 localhost:3000 로컬서버로 앱을 실행시킨다
