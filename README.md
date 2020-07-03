@@ -10,7 +10,8 @@ index.js > App.js > components
     
 
 ### `앱 실행화면`
-<img width="654" alt="스크린샷 2020-07-03 오후 3 15 31" src="https://user-images.githubusercontent.com/46306443/86437727-1076d000-bd40-11ea-9954-45a3f78cc914.png">
+<img width="479" alt="스크린샷 2020-07-03 오후 4 17 07" src="https://user-images.githubusercontent.com/46306443/86442365-a7478a80-bd48-11ea-89fa-03e531296d73.png">
+
 
 
 ### `기능`
