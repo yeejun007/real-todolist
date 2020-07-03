@@ -10,8 +10,8 @@ class App extends React.Component {
     this.clickedTitle = '미정1';
     this.state = {
       plan: 
-      [{title: '미정1' , content: ['내용1','내용2','내용3']}, 
-      {title: '미정2' , content: ['내용11','내용22','내용33']}],
+      [{title: '미정1' , content: ['테스트입니다.','테스트입니다.','테스트입니다.','테스트입니다.','테스트입니다.']}, 
+      {title: '미정2' , content: ['테스트입니다.2','테스트입니다.2','테스트입니다.2','테스트입니다.2','테스트입니다.2']}],
     }
     this.contentArray = this.state.plan[0].content;
   }
