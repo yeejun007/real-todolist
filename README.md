@@ -2,7 +2,7 @@
 
 
 ### `npm start`
-npm start 명령어를 통해 localhost:3000 로컬서버로 앱을 실행시킨다
+npm start 명령어를 통해 localhost:3000 로컬 서버로 앱을 실행시킨다
 
 
 ### `React의 기본적인 실행 파일구조`
