@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+React를 사용해서 만든 간단한 todo-list 어플리케이션.
+(메모장 같은 어플리케이션)
 
 ### `npm start`
+npm start 명령어를 통해 localhost:3000 로컬서버로 앱을 실행시킨다
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `React의 기본적인 실행 파일구조`
+index.js > App.js > components
+    
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### `앱 실행화면`
+<img width="654" alt="스크린샷 2020-07-03 오후 3 15 31" src="https://user-images.githubusercontent.com/46306443/86437727-1076d000-bd40-11ea-9954-45a3f78cc914.png">
 
-### `npm test`
+- 기능: 
+  - 메모장 내에서 새로운 일정 추가 or 삭제(완료된 항목을 클릭해서 삭제한다고 가정함)
+    <img width="1095" alt="스크린샷 2020-07-03 오후 3 45 10" src="https://user-images.githubusercontent.com/46306443/86439830-428a3100-bd44-11ea-8891-b5b479d8d372.png">
+    
+  - 삭제(완료)한 목록 확인
+    <img width="1087" alt="스크린샷 2020-07-03 오후 3 46 22" src="https://user-images.githubusercontent.com/46306443/86439866-5afa4b80-bd44-11ea-9450-2dbad836cff4.png">
+    
+  - 일정을 관리하는 새로운 메모장 추가 
+    <img width="558" alt="스크린샷 2020-07-03 오후 3 46 59" src="https://user-images.githubusercontent.com/46306443/86439927-75342980-bd44-11ea-86fa-22b0b860dc2a.png">
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
