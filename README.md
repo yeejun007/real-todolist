@@ -18,7 +18,7 @@ npm start 명령어를 통해 localhost:3000 로컬 서버로 react 앱을 실�
 <br/>
 <br/>
 
-### `Project Info`
+### `Project Details`
 - 헝목 삭제(완료된 항목을 클릭해서 삭제한다고 가정함)
     
     <img width="1095" alt="스크린샷 2020-07-03 오후 3 45 10" src="https://user-images.githubusercontent.com/46306443/86439830-428a3100-bd44-11ea-8891-b5b479d8d372.png">
