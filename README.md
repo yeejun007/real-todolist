@@ -1,6 +1,7 @@
 # todo-list 
 ### React를 사용해서 만든 간단한 todo-list 어플리케이션(메모장 같은 어플리케이션)
-
+<br/>
+<br/>
 
 ### `React의 기본적인 실행 파일구조`
 index.js > App.js > screens > components
