@@ -6,14 +6,19 @@
 index.js > App.js > screens > components
 <br/>
 <br/>
+<br/>
 
 ### `App Start Screen`
 <img width="479" alt="스크린샷 2020-07-03 오후 4 17 07" src="https://user-images.githubusercontent.com/46306443/86442365-a7478a80-bd48-11ea-89fa-03e531296d73.png">
-
+<br/>
+<br/>
+<br/>
 
 ### `Project Start`
 npm start 명령어를 통해 localhost:3000 로컬 서버로 react 앱을 실행시킨다
-
+<br/>
+<br/>
+<br/>
 
 ### `Project Info`
 - 헝목 삭제(완료된 항목을 클릭해서 삭제한다고 가정함)
@@ -29,7 +34,9 @@ npm start 명령어를 통해 localhost:3000 로컬 서버로 react 앱을 실�
 - 일정을 관리하는 새로운 알정 메모장 추가 (여기서는 미정3 이라고 입력함) 
     
     <img width="558" alt="스크린샷 2020-07-03 오후 3 46 59" src="https://user-images.githubusercontent.com/46306443/86439927-75342980-bd44-11ea-86fa-22b0b860dc2a.png">
-
+<br/>
+<br/>
+<br/>
 
 
 ### `향후 개선점`
