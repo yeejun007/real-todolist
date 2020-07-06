@@ -4,7 +4,8 @@
 
 ### `React의 기본적인 실행 파일구조`
 index.js > App.js > screens > components
-    
+<br/>
+<br/>
 
 ### `App Start Screen`
 <img width="479" alt="스크린샷 2020-07-03 오후 4 17 07" src="https://user-images.githubusercontent.com/46306443/86442365-a7478a80-bd48-11ea-89fa-03e531296d73.png">
